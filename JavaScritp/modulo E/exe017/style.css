@@ -1,0 +1,27 @@
+
+
+body{
+background-color: rgb(4, 26, 3);
+color: rgb(228, 13, 13);
+font-family:cursive;
+text-align: center;
+margin: auto;
+}
+
+section{
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+padding: 100px;
+color: rgb(5, 35, 204);
+width: 400px;
+margin: auto;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.447);
+
+}
+
+footer{
+text-align: center;
+font-style: italic;
+}
+
+

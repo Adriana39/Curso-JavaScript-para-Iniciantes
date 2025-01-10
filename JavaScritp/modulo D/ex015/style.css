@@ -1,0 +1,26 @@
+
+
+body{
+background-color: rgb(6, 26, 143);
+color: white;
+font-family: cursive;
+text-align: center;
+
+}
+    
+section{
+background-color: white;
+border-radius: 10px;
+padding: 50px;
+color: rgb(176, 13, 2);
+width: 500px;
+margin: auto;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.447);
+
+}
+
+footer{
+text-align: center;
+font-style: italic;
+}
+

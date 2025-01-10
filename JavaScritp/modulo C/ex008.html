@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Dom</title>
+    <style>
+        body{
+            background-color: rgb(5, 65, 65);
+            color: white;
+            font-family: cursive;
+        }
+        p{
+            color: rgb(237, 77, 237);
+        }
+        #area{
+            background:rgb(233, 229, 7);
+            color: rgb(33, 6, 97);
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+
+        }
+        h2{
+            color: yellow;
+        }
+        div{
+            margin-top: 20px;
+            margin-left: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Eventos Dom </h1>
+    <p>Sem a Dom teriamos muito dificuldade de acesso ao elementos da nossa arvore de navegação, a DOM é um facilitador que permite realizar dentro do navegador, do html5 moidificações nos elementos atraves do java script.  </p>
+    <p>Cada projeto tem a sua arvore, não precisa decorar, apenas entende como ela funciona</p>
+    <p>Tecnica para acessar os elementos: TagName ; ID ; Name; ClassName; querySelector</p>
+   <h2>No exemplo abaixo usaremos o evento do mouse; mas existe diversos eventos que podem ser aplicados:consultar o site: event reference do MDN</h2>
+   <h3>OS eventos são coisas que eu posso fazer com os elementos</h3> 
+   <h1>Para disparar um evento / tratar um evento precisamos utilizar o comando Funções</h1>
+   <p>A função ou funcionalidade é um conjunto de linha( bloco {} =  linhas), de codigos que serão execultada somente quando o evento acontecer</p>
+   <p>formato do comando function = function ação(param){}, </p>
+   <h1> Posso aplicar o comando direto no html id="area" onclick="clicar()" onmouseenter="entra()" onmouseout="sair()">.
+        div -> Interaja... / mas isso fara com que fique poluido</h1>
+ 
+        <h2>Então podemos  aplicar o comando pelo proprio java scritpt utilizando os seguites comandos:</h2>
+        <p>var a = window.document.getElementById('area')
+            a.addEventListener('click', clicar)
+           a.addEventListener('mouseenter',entra)
+           a.addEventListener('mouseout',sair) / que tera a função de ouvir os comando acontecerem e execultar as açoes solicitadas</p>
+    <div id='area' >
+        Interaja...
+
+    </div>
+    <p>Para verificar possiveis erro, basta ir ate o navegador(google crome) e no console do devtool informa onde esta o erro</p>
+    <script>
+        var a = window.document.getElementById('area')
+        a.addEventListener('click', clicar)
+       a.addEventListener('mouseenter',entra)
+       a.addEventListener('mouseout',sair)
+
+        function clicar(){            
+            a.innerText ='Clicou!'
+            a.style.background = "red"
+           
+        }
+        function entra(){
+            a.innerText = 'Entrou'
+       
+        }
+        function sair(){
+            a.innerText= 'Saiu'
+            a.style.background = "blue"
+         
+        }
+
+    </script>
+</body>
+</html>

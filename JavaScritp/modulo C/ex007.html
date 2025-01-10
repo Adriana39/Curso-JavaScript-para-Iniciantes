@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com Dom</title>
+    <style>
+        body{
+            background-color: rgb(2, 58, 4);
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        p{
+            color: rgb(230, 8, 175);
+        }
+
+        div{
+            color: rgb(244, 205, 13);
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com Dom</h1>
+    <h3>Acronimo : Document Object Model -> modelo de obejto para documentos. É um conjunto de objeto dentro do navegador que vai da acesso aos componentes internos do meu website. </h3>
+    <p>Apreendendo a Arvore <strong>DOM</strong> e Manipulando a <strong>DOM</strong></p>
+    <p>Aqui vai o resultado</p>
+    <p>Entendendo a DOM</p>
+    <div class="msg">Clique em mim "class"</div>
+    <div id="msg">Clique em mim "id"</div>
+    <div name="msg">Clique em mim "name"</div>
+
+    <script>
+        /*window.document.write(window.document.charset)
+        window.document.write(window.navigator.appName)
+        window.document.write(window.document.URL)
+        var p1 = window.document.getElementsByTagName('p')[0]
+       window.document.write("Está escrito assim:" + p1.innerHTML)
+       p1.style.color ="blue"
+       var corpo = window.document.body
+       corpo.style.background = "black"
+
+       var d = window.document.getElementById('msg')
+       d.style.background = "blue"
+       d.innerText =' Aguardando ...'
+
+       var d = window.document. getElementsByName("msg")[2]
+       d.innerText = 'Ola, Mundo!'
+       var d = window.document.getElementsByClassName('msg')[0]
+       d.innerText = 'estou feliz'*/
+
+       var d = window.document.querySelector('div.msg')
+       d.style.color ="blue"
+
+       var d1 = window.document.querySelector('div#msg')
+       d1.style.color = "black"
+
+       var d2 = window.document.querySelector('name')
+       d2.style.color = 'white'
+
+
+
+       
+
+
+
+
+       
+
+    </script>
+</body>
+
+</html>

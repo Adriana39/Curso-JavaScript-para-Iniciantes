@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conhecendo o Java Script</title>
+    <style>
+        body{
+            background-color: rgb(249, 0, 0);
+            color: white; /*cor no texto*/
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Number</h1> <!--h1 é titulo-->
+    <p>Manipulando dados numericos</p>
+    <hr>
+    <p>Number + Number  o java script faz uma adição, ou seja ele soma os numeros</p>
+    <p>String + String o java script faz uma concatenação, ou seja ele junta os dados</p>
+    <p>Para converter string para numeros utilizamos Number(n).parseInt para numeros inteiros  ou Number.parseFloat para numeros reais.</p>
+    <p>Mas agora existe a forma simplificada onde usamos apenas Number(n)</p>
+    <p>Dicas para criar nomes de variaves
+        maiscula e minuscula fazem diferença
+        var a = 
+        var A = 
+        utilizar nomes coerente
+        para criação de nome use nome
+        para idade use idade ..etc
+        evite se um programador alfametico ou contador 
+        aquele que usa a, b, c , d , e ..
+        ou 1, 2, 3, 4 </p>
+  <p>Numero para String é possivel converter utilizando o comando String(n) ou n.toString </p>
+    <p>placeholder - Tempate String é um comando utilizado para ligar mais de 2 elementos; usamos ${} dentro de crase para chamar resultados. </p>
+</body>
+<script>
+    var n1 = Number(window.prompt('digite um numero?')) //prompt coleta dados
+    var n2 = Number(window.prompt('digite outro numero?'))
+    var s = n1 + n2
+    window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) 
+</script>
+</html>
+<!--Dicas para criar nomes de variaves
+maiscula e minuscula fazem diferença
+var a = 
+var A = 
+utilizar nomes coerente
+para criação de nome use nome
+para idade use idade ..etc
+evite se um programador alfametico ou contador 
+aquele que usa a, b, c , d , e ..
+ou 1, 2, 3, 4 
+s.length // conta a quantidade de caractere
+s.toUpperCase() // muda todo o texto para MAIUSCULAS
+s.toLowerCaser() // muda todo o texto para minusculas-->

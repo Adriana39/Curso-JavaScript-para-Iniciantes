@@ -1,0 +1,54 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comando Basico</title>
+    <style>
+        body{
+            background-color: rgb(0, 46, 63);
+            color: white; /*cor no texto*/
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20pt;
+        }
+     
+    </style>
+</head>
+<body>
+    <h1>Strings</h1> <!--h1 é titulo-->
+    <p>Manipulando textos e valores monetario</p>
+    <p>> Formatando valores:
+        Exemplo:  n1 1545.5
+        <p>> n1.toFixed(2) '1545.50'</p>
+        
+       <p> > n1.toLocaleString('pt-BR' , {style: 'currency' , currency: 'BRL'})
+        'R$ 1.545,50' </p>
+        <p>> n1.toLocaleString('pt-BR' , { style: 'currency' , currency: 'USD'})
+        'US$ 1.545,50'</p>
+        <p>> n1.toLocaleString('pt-BR' , { style: 'currency' , currency: 'EUR'})
+        '€ 1.545,50'</p>
+        
+    
+        
+        </p>
+
+  <p>s.length // conta a quantidade de caractere
+    s.toUpperCase() // muda todo o texto para MAIUSCULAS
+    s.toLowerCaser() // muda todo o texto para minusculas</p>
+   
+</body>
+<script>
+   var nome = window.prompt('qual é o seu nome?')
+   document.write(`Olá,<strong> ${nome} <//strong>! Seu nome tem ${nome.length} letras <br>`)
+   document.write(` Seu nome em maiuscula é ${nome.toUpperCase()} <br>`)
+   document.write(` Seu nome em maiuscula é ${nome.toLowerCase()}<br>`)
+  
+
+</script>
+</html>
+<!--Dicas:
+s.length // conta a quantidade de caractere
+s.toUpperCase() // muda todo o texto para MAIUSCULAS
+s.toLowerCaser() // muda todo o texto para minusculas-->
