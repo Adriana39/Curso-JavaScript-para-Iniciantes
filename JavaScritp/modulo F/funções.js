@@ -1,3 +1,9 @@
+/*
+${funçoes em Js}
+
+paramentros pre definido (n=0)
+*/
+
 function parimp(n) {
     if(n%2 == 0){
         return 'par'

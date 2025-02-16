@@ -1,7 +1,7 @@
 
 
 body{
-background-color: rgb(12, 150, 127);
+background-color: rgb(20, 10, 150);
 color: white;
 font-family: cursive;
 text-align: center;
@@ -17,6 +17,7 @@ margin: auto;
 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.447);
 
 }
+
 
 footer{
 text-align: center;
