@@ -1,6 +1,6 @@
-<h1 align="center">  Curso de JavaScript para Iniciantes - Módulos 1 a 6 </h1>
+<h1 align="center">  Curso de JavaScript para Iniciantes - Módulos A ao F </h1>
 
-<p align="center"> ‍ Ministrado por Gustavo Guanabara ‍ </p>
+<p align="center"> ‍ Ministrado por Gustavo Guanabara e um curso patrocinado pelo Google</p>
 
 <p align="center">  Aprenda desde os conceitos básicos até o uso de funções!  </p>
 
@@ -8,7 +8,7 @@
 
 <hr>
 
-Conteúdo do Curso
+ <p>Conteúdo do Curso</p>
 <strong>Módulo 1: Introdução ao JavaScript e Tipos de Dados</strong>
 Conceitos básicos do JavaScript
 Tipos de dados primitivos (Number, String, Boolean, Null, Undefined)
