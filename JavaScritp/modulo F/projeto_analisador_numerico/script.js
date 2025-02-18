@@ -20,7 +20,7 @@ function inLista(n, l) {
     return true // se for verdadeiro
 
   } else {
-     return false //  se for falso
+     return false // se for falso
   }
 
 }
@@ -74,6 +74,6 @@ function finalizar(){
     res.innerHTML += `<p>O menor valor informado foi ${menor}.</p>` // menor valor
     res.innerHTML += `<p>Somando todos os valores, temos ${soma}.</p>` // soma dos valores
     res.innerHTML += `<p>A média dos valores digitados é ${media}.</p>` // media dos valores
-
+ 
   }
 }
